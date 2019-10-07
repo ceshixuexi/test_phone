@@ -16,7 +16,8 @@ class TestSearch:
         self.page.search.input_key_word(args)
         time.sleep(3)
         self.page.search.click_back()
-
+    def test_search3(self):
+        assert 0
 
 
     def teardown(self):
