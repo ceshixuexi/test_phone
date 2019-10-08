@@ -16,7 +16,9 @@ class TestSearch:
         self.page.search.input_key_word(args)
         time.sleep(3)
         self.page.search.click_back()
-    def test_search2(self):
+    def test_search456(self):
+        assert 0
+    def test_search123(self):
         assert 0
 
 
